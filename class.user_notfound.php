@@ -4,7 +4,7 @@ class user_notFound {
                 /* URL of RedirectService */
                 $redirectServerBaseUrl = 'https://tao.goldbach.com/redirecthandler/';
                 
-				/* Final 404 Page if no redirect rule exists */
+		/* Final 404 Page if no redirect rule exists */
                 $error404Url = 'https://www.example.com/index.php?id=4711';
 
                 $originalRequstUri = urlencode($_SERVER['REQUEST_URI']);
